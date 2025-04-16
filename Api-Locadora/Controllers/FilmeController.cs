@@ -27,8 +27,9 @@ namespace Api_Locadora.Controllers
             filme.Diretor = item.Diretor;
             filme.Ano_Lancamento = item.Ano_Lancamento;
             filme.Diretor = item.Diretor;
+            filme.Genero = item.Genero;
+            filme.Estudio = item.Estudio;
             filme.IMDB = item.IMDB;
-
 
             Listar.Filmes.Add(filme);
 
@@ -51,9 +52,8 @@ namespace Api_Locadora.Controllers
                         fil.Ano_Lancamento = item.Ano_Lancamento;
                         fil.Diretor = item.Diretor;
                         fil.IMDB = item.IMDB;
-
-
-                        //add
+                        fil.Estudio = item.Estudio;
+                        fil.Genero = item.Genero;
                     }
                 }
                 return Ok();
