@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2023102060025\\Documents\\code\\Api-Locadora\\Api-Locadora\\Api-Locadora.csproj",
+      "projectUniqueName": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Api-Locadora.csproj",
       "projectName": "Api-Locadora",
-      "projectPath": "C:\\Users\\2023102060025\\Documents\\code\\Api-Locadora\\Api-Locadora\\Api-Locadora.csproj",
+      "projectPath": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Api-Locadora.csproj",
       "packagesPath": "C:\\Users\\2023102060025\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2023102060025\\Documents\\code\\Api-Locadora\\Api-Locadora\\obj\\",
+      "outputPath": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

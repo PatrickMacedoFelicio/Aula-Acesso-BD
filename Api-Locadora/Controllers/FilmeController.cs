@@ -1,7 +1,10 @@
-﻿using Api_Locadora.Dtos;
+﻿using Api_Locadora.Models;
+using Api_Locadora.Dtos;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using static System.Net.Mime.MediaTypeNames;
+using Api_Locadora.DbContext;
+using System.Collections.Generic;
 
 namespace Api_Locadora.Controllers
 {
@@ -9,32 +12,25 @@ namespace Api_Locadora.Controllers
     [ApiController]
     public class FilmeController : ControllerBase
     {
-        private static List<Filme> ListarFilmes = [
-            new Filme() {
-                Nome = "Jogos Vorazes",
-                Genero = "Ação"
-            },
-            new Filme() {
-                Nome = "Turma da Monica",
-                Genero = "Animação"
-            }
-        ];
-
         //[HttpGet("Filmes")] -> para ficar /Filmes/Filmes
         [HttpGet]
         public IActionResult Buscar()
         {
-            return Ok(ListarFilmes);
+            return Ok(Listar.Filmes);
         }
 
         [HttpPost]
         public IActionResult Cadastrar([FromBody] FilmeDto item)
         {
             var filme = new Filme();
-            filme.Nome = item.Nome;
-            filme.Genero = item.Genero;
+            filme.Titulo = item.Titulo;
+            filme.Diretor = item.Diretor;
+            filme.Ano_Lancamento = item.Ano_Lancamento;
+            filme.Diretor = item.Diretor;
+            filme.IMDB = item.IMDB;
 
-            ListarFilmes.Add(filme);
+
+            Listar.Filmes.Add(filme);
 
             return Ok(filme);
         }
@@ -42,22 +38,30 @@ namespace Api_Locadora.Controllers
         [HttpPut("{id}")]
         public IActionResult Atualizar(Guid id, [FromBody] FilmeDto item)
         {
-            Filme update = new Filme();
+            int indice = Listar.Filmes.FindIndex(p => p.Id == id);
 
-            foreach (Filme fil in ListarFilmes)
+            if (indice != -1)
             {
-                if (fil.Id == id)
+                foreach (Filme fil in Listar.Filmes)
                 {
-                    fil.Nome = item.Nome;
-                    fil.Genero = item.Genero;
+                    if (fil.Id == id)
+                    {
+                        fil.Titulo = item.Titulo;
+                        fil.Diretor = item.Diretor;
+                        fil.Ano_Lancamento = item.Ano_Lancamento;
+                        fil.Diretor = item.Diretor;
+                        fil.IMDB = item.IMDB;
 
-                    update.Nome = item.Nome;
+
+                        //add
+                    }
                 }
+                return Ok();
             }
-
-            if (update != null) { return Ok(); }
-            else { return NotFound(); }
-
+            else
+            {
+                return NotFound();
+            }
         }
 
 
@@ -66,7 +70,17 @@ namespace Api_Locadora.Controllers
         [HttpDelete("{id}")]
         public IActionResult Remover(Guid id)
         {
-            return Ok();
+            int indice = Listar.Filmes.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
+
+            if (indice != -1)
+            {
+                Listar.Filmes.RemoveAt(indice);
+                return Ok();
+            }
+            else
+            {
+                return NotFound();
+            }
         }
     }
 }
