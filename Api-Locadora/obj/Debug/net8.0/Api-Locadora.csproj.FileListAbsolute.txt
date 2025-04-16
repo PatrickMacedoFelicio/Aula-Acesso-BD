@@ -30,3 +30,6 @@ C:\Users\2023102060025\Documents\code\Api-Locadora\Api-Locadora\obj\Debug\net8.0
 C:\Users\2023102060025\Documents\code\Api-Locadora\Api-Locadora\obj\Debug\net8.0\Api-Locadora.pdb
 C:\Users\2023102060025\Documents\code\Api-Locadora\Api-Locadora\obj\Debug\net8.0\Api-Locadora.genruntimeconfig.cache
 C:\Users\2023102060025\Documents\code\Api-Locadora\Api-Locadora\obj\Debug\net8.0\ref\Api-Locadora.dll
+C:\Users\2023102060025\Documents\GitHub\Aula-Acesso-BD\Api-Locadora\obj\Debug\net8.0\Api-Locadora.dll
+C:\Users\2023102060025\Documents\GitHub\Aula-Acesso-BD\Api-Locadora\obj\Debug\net8.0\refint\Api-Locadora.dll
+C:\Users\2023102060025\Documents\GitHub\Aula-Acesso-BD\Api-Locadora\obj\Debug\net8.0\Api-Locadora.pdb
