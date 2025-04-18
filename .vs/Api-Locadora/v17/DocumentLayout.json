@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\patri\\Documents\\Aula-Acesso-BD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\patri\\documents\\aula-acesso-bd\\api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\patri\\documents\\aula-acesso-bd\\api-locadora\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\patri\\documents\\aula-acesso-bd\\api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\patri\\documents\\aula-acesso-bd\\api-locadora\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EstudioController.cs",
               "DocumentMoniker": "C:\\Users\\patri\\Documents\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\EstudioController.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\EstudioController.cs",
               "ToolTip": "C:\\Users\\patri\\Documents\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\EstudioController.cs",
               "RelativeToolTip": "Api-Locadora\\Controllers\\EstudioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T16:33:24.46Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Api-Locadora\\Controllers\\GeneroController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAywD4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:11:35.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T05:11:35.949Z"
             },
             {
               "$type": "Document",
@@ -164,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FilmeController.cs",
               "DocumentMoniker": "C:\\Users\\patri\\Documents\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\FilmeController.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\FilmeController.cs",
               "ToolTip": "C:\\Users\\patri\\Documents\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\FilmeController.cs",
               "RelativeToolTip": "Api-Locadora\\Controllers\\FilmeController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:43:17.611Z",
               "EditorCaption": ""
