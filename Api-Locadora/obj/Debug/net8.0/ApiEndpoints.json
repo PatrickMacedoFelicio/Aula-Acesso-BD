@@ -89,43 +89,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Api_Locadora.Controllers.FilmeController",
-    "Method": "Atualizar",
-    "RelativePath": "Filmes/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "item",
-        "Type": "Api_Locadora.Dtos.FilmeDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Locadora.Controllers.FilmeController",
-    "Method": "Remover",
-    "RelativePath": "Filmes/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Api_Locadora.Controllers.GeneroController",
     "Method": "Buscar",
     "RelativePath": "Genero",

@@ -16,7 +16,7 @@ namespace Api_Locadora.Controllers
         [HttpGet]
         public IActionResult Buscar()
         {
-            return Ok(Listar.Estudios);
+            return base.Ok(DbContext.DbContext.Estudios);
         }
 
         [HttpPost]
@@ -27,7 +27,7 @@ namespace Api_Locadora.Controllers
             estudio.Nome = item.Nome;
             estudio.Distribuidor = item.Distribuidor;
 
-            Listar.Estudios.Add(estudio);
+            DbContext.DbContext.Estudios.Add(estudio);
 
             return Ok(estudio);
         }
@@ -35,11 +35,11 @@ namespace Api_Locadora.Controllers
         [HttpPut("{id}")]
         public IActionResult Atualizar(Guid id, [FromBody] EstudioDto item)
         {
-            int indice = Listar.Estudios.FindIndex(p => p.Id == id);
+            int indice = DbContext.DbContext.Estudios.FindIndex(p => p.Id == id);
 
             if (indice != -1)
             {
-                foreach (Estudio est in Listar.Estudios)
+                foreach (Estudio est in DbContext.DbContext.Estudios)
                 {
                     if (est.Id == id)
                     {
@@ -61,11 +61,11 @@ namespace Api_Locadora.Controllers
         [HttpDelete("{id}")]
         public IActionResult Remover(Guid id)
         {
-            int indice = Listar.Estudios.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
+            int indice = DbContext.DbContext.Estudios.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
 
             if (indice != -1)
             {
-                Listar.Estudios.RemoveAt(indice);
+                DbContext.DbContext.Estudios.RemoveAt(indice);
                 return Ok();
             }
             else

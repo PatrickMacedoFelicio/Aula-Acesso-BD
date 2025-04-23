@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using static System.Net.Mime.MediaTypeNames;
 using Api_Locadora.DbContext;
 using System.Collections.Generic;
+using Api_Locadora.DataContexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api_Locadora.Controllers
 {
@@ -12,38 +14,47 @@ namespace Api_Locadora.Controllers
     [ApiController]
     public class FilmeController : ControllerBase
     {
+        private readonly AppDbContext _contexto;
+
+        public FilmeController(AppDbContext contexto) { 
+            _contexto = contexto;
+        }
+
         //[HttpGet("Filmes")] -> para ficar /Filmes/Filmes
         [HttpGet]
-        public IActionResult Buscar()
+        public async Task<IActionResult> Buscar()
         {
-            return Ok(Listar.Filmes);
+            var listarFilmes = await _contexto.Filmes.ToListAsync();
+
+            return Ok(listarFilmes);
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] FilmeDto item)
+        public async Task<IActionResult> Cadastrar([FromBody] FilmeDto item)
         {
-            var filme = new Filme();
-            filme.Titulo = item.Titulo;
-            filme.Diretor = item.Diretor;
-            filme.Ano_Lancamento = item.Ano_Lancamento;
-            filme.Diretor = item.Diretor;
-            filme.Genero = item.Genero;
-            filme.Estudio = item.Estudio;
-            filme.IMDB = item.IMDB;
 
-            Listar.Filmes.Add(filme);
+            var filme = new Filme
+            {
+                Titulo = item.Titulo,
+                Ano_Lancamento = item.Ano_Lancamento,
+                Diretor = item.Diretor,
+                IMDB = item.IMDB
+            };
 
-            return Ok(filme);
+            await _contexto.Filmes.AddAsync(filme);
+            await _contexto.SaveChangesAsync();
+
+            return Created("", filme);
         }
-
+      /*  
         [HttpPut("{id}")]
-        public IActionResult Atualizar(Guid id, [FromBody] FilmeDto item)
+        public async Task<IActionResult> Atualizar(int id, [FromBody] FilmeDto item)
         {
-            int indice = Listar.Filmes.FindIndex(p => p.Id == id);
+            int indice = DbContext.DbContext.Filmes.FindIndex(p => p.Id == id);
 
             if (indice != -1)
             {
-                foreach (Filme fil in Listar.Filmes)
+                foreach (Filme fil in DbContext.DbContext.Filmes)
                 {
                     if (fil.Id == id)
                     {
@@ -52,8 +63,6 @@ namespace Api_Locadora.Controllers
                         fil.Ano_Lancamento = item.Ano_Lancamento;
                         fil.Diretor = item.Diretor;
                         fil.IMDB = item.IMDB;
-                        fil.Estudio = item.Estudio;
-                        fil.Genero = item.Genero;
                     }
                 }
                 return Ok();
@@ -70,11 +79,11 @@ namespace Api_Locadora.Controllers
         [HttpDelete("{id}")]
         public IActionResult Remover(Guid id)
         {
-            int indice = Listar.Filmes.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
+            int indice = DbContext.DbContext.Filmes.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
 
             if (indice != -1)
             {
-                Listar.Filmes.RemoveAt(indice);
+                DbContext.DbContext.Filmes.RemoveAt(indice);
                 return Ok();
             }
             else
@@ -82,5 +91,6 @@ namespace Api_Locadora.Controllers
                 return NotFound();
             }
         }
+        */
     }
 }

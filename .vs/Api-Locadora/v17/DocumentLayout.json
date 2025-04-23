@@ -7,40 +7,20 @@
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\estudiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dtos\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dtos\\estudiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dtos\\estudiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dbcontext\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dbcontext\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\estudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\estudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,116 +29,34 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "DockedWidth": 228,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EstudioController.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\EstudioController.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\EstudioController.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\EstudioController.cs",
-              "RelativeToolTip": "Api-Locadora\\Controllers\\EstudioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:33:24.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\GeneroController.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\GeneroController.cs",
-              "RelativeToolTip": "Api-Locadora\\Controllers\\GeneroController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAywD4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:11:35.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstudioDto.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\EstudioDto.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Dtos\\EstudioDto.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\EstudioDto.cs",
-              "RelativeToolTip": "Api-Locadora\\Dtos\\EstudioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:50:31.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GeneroDto.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\GeneroDto.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Dtos\\GeneroDto.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\GeneroDto.cs",
-              "RelativeToolTip": "Api-Locadora\\Dtos\\GeneroDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:49:43.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FilmeDto.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Dtos\\FilmeDto.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
-              "RelativeToolTip": "Api-Locadora\\Dtos\\FilmeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:47:04.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Estudio.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Estudio.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Models\\Estudio.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Estudio.cs",
-              "RelativeToolTip": "Api-Locadora\\Models\\Estudio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:46:39.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Genero.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Genero.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\Models\\Genero.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Genero.cs",
-              "RelativeToolTip": "Api-Locadora\\Models\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:46:20.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Filme.cs",
               "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Filme.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Models\\Filme.cs",
               "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Filme.cs",
               "RelativeToolTip": "Api-Locadora\\Models\\Filme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:46:07.678Z"
+              "WhenOpened": "2025-04-23T01:47:10.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Listar.cs",
-              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\DbContext\\Listar.cs",
-              "RelativeDocumentMoniker": "Api-Locadora\\DbContext\\Listar.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\DbContext\\Listar.cs",
-              "RelativeToolTip": "Api-Locadora\\DbContext\\Listar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FilmeDto.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
+              "RelativeDocumentMoniker": "Api-Locadora\\Dtos\\FilmeDto.cs",
+              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
+              "RelativeToolTip": "Api-Locadora\\Dtos\\FilmeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T01:45:23.762Z"
+              "WhenOpened": "2025-04-23T01:47:01.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -168,9 +66,35 @@
               "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\FilmeController.cs",
               "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\FilmeController.cs",
               "RelativeToolTip": "Api-Locadora\\Controllers\\FilmeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA6wCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:43:17.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\appsettings.json",
+              "RelativeDocumentMoniker": "Api-Locadora\\appsettings.json",
+              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\appsettings.json",
+              "RelativeToolTip": "Api-Locadora\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T23:48:25.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Program.cs",
+              "RelativeDocumentMoniker": "Api-Locadora\\Program.cs",
+              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Program.cs",
+              "RelativeToolTip": "Api-Locadora\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T00:00:23.731Z",
               "EditorCaption": ""
             }
           ]
