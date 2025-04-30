@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\controllers\\filmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dtos\\filmedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|c:\\users\\2023102060025\\documents\\github\\aula-acesso-bd\\api-locadora\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C9EF1-BAC4-45E1-B843-05FE8AC32E6D}|Api-Locadora\\Api-Locadora.csproj|solutionrelative:api-locadora\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\DbContext\\DbContext.cs",
+              "RelativeDocumentMoniker": "Api-Locadora\\DbContext\\DbContext.cs",
+              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\DbContext\\DbContext.cs",
+              "RelativeToolTip": "Api-Locadora\\DbContext\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T23:24:17.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Filme.cs",
               "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Models\\Filme.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Models\\Filme.cs",
@@ -47,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FilmeDto.cs",
               "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Dtos\\FilmeDto.cs",
-              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs*",
-              "RelativeToolTip": "Api-Locadora\\Dtos\\FilmeDto.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Dtos\\FilmeDto.cs",
+              "RelativeToolTip": "Api-Locadora\\Dtos\\FilmeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T01:47:01.071Z",
               "EditorCaption": ""
@@ -66,14 +83,14 @@
               "RelativeDocumentMoniker": "Api-Locadora\\Controllers\\FilmeController.cs",
               "ToolTip": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Controllers\\FilmeController.cs",
               "RelativeToolTip": "Api-Locadora\\Controllers\\FilmeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:43:17.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\appsettings.json",
               "RelativeDocumentMoniker": "Api-Locadora\\appsettings.json",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2023102060025\\Documents\\GitHub\\Aula-Acesso-BD\\Api-Locadora\\Program.cs",
               "RelativeDocumentMoniker": "Api-Locadora\\Program.cs",

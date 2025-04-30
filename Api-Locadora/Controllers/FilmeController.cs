@@ -46,7 +46,7 @@ namespace Api_Locadora.Controllers
 
             return Created("", filme);
         }
-      /*  
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Atualizar(int id, [FromBody] FilmeDto item)
         {
@@ -74,10 +74,9 @@ namespace Api_Locadora.Controllers
         }
 
 
-        // verificar se o ID existe
 
         [HttpDelete("{id}")]
-        public IActionResult Remover(Guid id)
+        public IActionResult Remover(int id)
         {
             int indice = DbContext.DbContext.Filmes.FindIndex(p => p.Id == id); // Percore todo o Listar Filme com até encontrar o indicado, caso ele encontre ele pegar as informações e ficar fora do padrão de -1
 

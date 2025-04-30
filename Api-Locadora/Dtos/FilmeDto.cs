@@ -12,7 +12,7 @@ namespace Api_Locadora.Dtos
         [Required]
         public string? Diretor { get; set; }
         //[Required]
-        //public Genero Genero { get; set; }
+        //public required Genero Genero { get; set; }
         //[Required]
         //public Estudio Estudio { get; set; }
         [Required]
