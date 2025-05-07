@@ -33,18 +33,46 @@ namespace Api_Locadora.Controllers
         public async Task<IActionResult> Cadastrar([FromBody] FilmeDto item)
         {
 
-            var filme = new Filme
+            //var filme = new Filme
+            //{
+            //    Titulo = item.Titulo,
+            //    Ano_Lancamento = item.Ano_Lancamento,
+            //    Diretor = item.Diretor,
+            //    IMDB = item.IMDB
+            //};
+
+            //await _contexto.Filmes.AddAsync(filme);
+            //await _contexto.SaveChangesAsync();
+
+            //return Created("", filme);
+
+
+
+            try
             {
-                Titulo = item.Titulo,
-                Ano_Lancamento = item.Ano_Lancamento,
-                Diretor = item.Diretor,
-                IMDB = item.IMDB
-            };
+                if (!await IdExists(item.i))
+                {
+                    return BadRequest("O CampusId fornecido não existe.");
+                }
 
-            await _contexto.Filmes.AddAsync(filme);
-            await _contexto.SaveChangesAsync();
+                var servidor = new Servidor()
+                {
+                    Nome = item.Nome,
+                    CPF = item.CPF,
+                    Siape = item.Siape,
+                    CampusId = item.CampusId
+                };
 
-            return Created("", filme);
+                await _context.Servidores.AddAsync(servidor);
+                await _context.SaveChangesAsync();
+
+                return Created("", servidor);
+            }
+            catch (Exception e)
+            {
+                return Problem();
+            }
+
         }
 
         [HttpPut("{id}")]
@@ -90,6 +118,11 @@ namespace Api_Locadora.Controllers
                 return NotFound();
             }
         }
-        */
+
+        private async Task<bool> IdExists(int idFilmes)
+        {
+            return await _contexto.Filmes.AnyAsync(c => c.Id == idFilmes);
+        }
+
     }
 }
