@@ -12,41 +12,52 @@ namespace ApiLocadora.Controllers
     [ApiController]
     public class FilmeController : ControllerBase
     {
-        private readonly FilmeServices _services;
+        private readonly FilmeService _service;
 
-        public FilmeController(FilmeServices services)
+        private readonly AppDbContext _context;
+
+        public FilmeController(FilmeService service, AppDbContext context)
         {
-            _services = services;
+            _service = service;
+            _context = context; 
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
+            //var listaFilmes = await _service.GetAll();
 
-            var listaFilmes = await _services.GetAll();
+            var listaFilmes = await _context.Filmes
+                .Include(e => e.Estudio)
+                //.Select(e => new
+                //{
+                //    e.Id,
+                //    e.Nome,
+                //    e.AnoLancamento,
+                //    e.Genero,
+                //    Estudio = new { e.Estudio.Id, e.Estudio.Nome },
+                //})
+                .ToListAsync();
 
             return Ok(listaFilmes);
         }
 
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetOne(int id)
         {
-
             try
             {
-                var filme = await _services.GetOneById(id);
+                var filme = await _service.GetOneById(id);
 
                 if (filme is null)
                 {
-                    return NotFound();
+                    return NotFound("Informacao nao encontrada!");
                 }
 
                 return Ok(filme);
             }
             catch (Exception ex)
             {
-
                 return Problem(ex.Message);
             }
         }
@@ -56,7 +67,7 @@ namespace ApiLocadora.Controllers
         {
             try
             {
-                var filme = await _services.Create(item);
+                var filme = await _service.Create(item);
 
                 if (filme is null)
                 {
@@ -69,7 +80,7 @@ namespace ApiLocadora.Controllers
             {
                 return Problem(ex.Message);
             }
-
+            
         }
 
         [HttpPut("{id}")]
@@ -77,7 +88,7 @@ namespace ApiLocadora.Controllers
         {
             try
             {
-                var filme = await _services.Update(id, item);
+                var filme = await _service.Update(id, item);
 
                 if (filme is null)
                     return NotFound();
