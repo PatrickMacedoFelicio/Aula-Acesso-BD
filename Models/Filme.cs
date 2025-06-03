@@ -11,6 +11,8 @@ namespace ApiLocadora.Models
 
         public required string Genero { get; set; }
 
-        public DateOnly? AnoLancamento { get; set; }
+        public DateTime? AnoLancamento { get; set; }
+
+        public virtual Estudio? Estudio { get; set; }
     }
 }

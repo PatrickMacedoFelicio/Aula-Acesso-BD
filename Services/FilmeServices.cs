@@ -16,7 +16,14 @@ namespace ApiLocadora.Services
 
         public async Task<ICollection<Filme>> GetAll()
         {
-            var list = await _context.Filmes.ToListAsync();
+            var list = await _context.Filmes
+                .Include(e=>e.Estudio)
+                .Select(e=> new
+                {
+                    e.Id,
+                    e.Nome,
+                })
+                .ToListAsync();
 
             return list;
         }
@@ -43,7 +50,7 @@ namespace ApiLocadora.Services
                 {
                     Nome = filmeItem.Nome,
                     Genero = filmeItem.Genero,
-                    AnoLancamento = new DateOnly(data.Year, data.Month, data.Day)
+                    AnoLancamento = filmeItem.AnoLancamento
                 };
 
                 await _context.Filmes.AddAsync(filme);
@@ -76,7 +83,7 @@ namespace ApiLocadora.Services
                 _context.Filmes.Update(_filmes);
                 await _context.SaveChangesAsync();
 
-                return _filme;
+                return _filmes;
             }
             catch (Exception ex)
             {

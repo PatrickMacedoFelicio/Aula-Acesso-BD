@@ -1,12 +1,12 @@
 ﻿namespace ApiLocadora.Models
 {
-    public class Genero
+    public class Estudio
     {
         public int Id { get; set; }
 
         public string Nome { get; set; }
 
-        public bool ativo { get; set; } = true;
+        public ICollection<Filme> Filmes { get; set; }
 
     }
 }
